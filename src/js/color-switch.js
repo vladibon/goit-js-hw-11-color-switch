@@ -1,4 +1,4 @@
-import colors from './colors.js';
+import colors from '../db/colors.json';
 import refs from './refs.js';
 
 let intervalId = null;
@@ -12,9 +12,9 @@ refs.startBtn.onclick = () => {
 };
 
 refs.stopBtn.onclick = () => {
-  refs.startBtn.disabled = false;
-
   clearInterval(intervalId);
+
+  refs.startBtn.disabled = false;
 };
 
 function randomId(min, max) {

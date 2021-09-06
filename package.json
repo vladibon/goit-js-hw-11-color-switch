@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladibon/goit-js-hw-11-color-switch.git"
+  },
+  "keywords": [],
+  "author": "Vladimir Bondar <vladi.bondar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladibon/goit-js-hw-11-color-switch/issues"
+  },
+  "homepage": "https://github.com/vladibon/goit-js-hw-11-color-switch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
