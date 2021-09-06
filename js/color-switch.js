@@ -4,7 +4,7 @@ import refs from './refs.js';
 let intervalId = null;
 
 refs.startBtn.onclick = () => {
-  refs.startBtn.setAttribute('disabled', true);
+  refs.startBtn.disabled = true;
 
   intervalId = setInterval(() => {
     document.body.style.backgroundColor = colors[randomId(0, colors.length - 1)];
@@ -12,7 +12,7 @@ refs.startBtn.onclick = () => {
 };
 
 refs.stopBtn.onclick = () => {
-  refs.startBtn.removeAttribute('disabled');
+  refs.startBtn.disabled = false;
 
   clearInterval(intervalId);
 };
