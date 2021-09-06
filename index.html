@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Color switch</title><style>button {
+        display: inline-block;
+        text-align: center;
+        margin: 8px;
+        padding: 16px 32px;
+        font-size: 20px;
+        background-color: #fff;
+        color: #212121;
+        border: 2px solid #555555;
+        border-radius: 5px;
+        text-decoration: none;
+        transition-duration: 0.3s;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #555555;
+        color: white;
+      }
+      button:disabled {
+        color: #626262;
+      }
+      button:disabled:hover {
+        background-color: #fff;
+      }</style><script defer="defer" src="main.js"></script></head><body><button type="button" data-action="start">Start</button> <button type="button" data-action="stop">Stop</button></body></html>
